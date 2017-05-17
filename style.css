@@ -1,0 +1,27 @@
+@font-face{
+  font-family: fish;
+  src:url(FISH&CHIPS-Regular.ttf);
+}
+body{
+  background-color: black;
+  color:white;
+  font-family: fish;
+}
+#container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrapper{
+  padding: 50px;
+  width: 60%;
+  border: 2px solid yellow;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+a{
+  color : red;
+}
+img{
+  float:right;
+}
